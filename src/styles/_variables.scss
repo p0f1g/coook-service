@@ -1,0 +1,36 @@
+$color-accent: #fe9102;
+$color-light: #ecf1f0;
+$color-dark: #212629;
+$color-gray: #e9e9e9;
+$color-green: #25d366;
+
+// Semantic colors
+
+$text-color: $color-dark;
+$body-bg: $color-gray;
+
+// Base typography
+
+$font-size-h1: 50px;
+$font-size-h2: 36px;
+$font-size-h3: 20px;
+$font-size-h4: 18px;
+$font-size-h5: 16px;
+$font-size-h6: 16px;
+
+$font-size: 17px;
+$font-family: "Raleway", sans-serif;
+$line-height: 1.24;
+
+// Other
+
+$container: 1170px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
