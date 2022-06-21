@@ -1,0 +1,53 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.page-menu {
+  @include media-up(md) {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+  }
+}
+
+.menu-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+
+  @include media-up(md) {
+    flex-grow: 1;
+  }
+}
+
+.menu-list__item {
+  padding: 17px 0;
+  border-top: 1px solid rgba(22, 22, 22, 0.08);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.menu-list__link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.1;
+  transition: color 0.25s ease;
+
+  @include media-up(lg) {
+    font-size: 18px;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  svg {
+    margin-right: 22px;
+  }
+
+  &.menu-list__link--green {
+    color: $color-green;
+  }
+}

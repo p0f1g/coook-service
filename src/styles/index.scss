@@ -23,6 +23,7 @@ body {
   font-size: $font-size;
   line-height: $line-height;
   background-color: $body-bg;
+  color: $text-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -68,4 +69,18 @@ p:not(:last-of-type) {
 svg {
   fill: currentColor;
   vertical-align: middle;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page__content {
+  flex-grow: 1;
+}
+
+.page__footer {
+  flex-shrink: 0;
 }

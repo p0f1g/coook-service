@@ -6,10 +6,10 @@ import "./Header.scss";
 
 const Header = () => {
   return (
-    <header className="app-header">
-      <div className="app-header__inner">
+    <header className="page-header">
+      <div className="page-header__inner">
         <Logo />
-        <div className="app-header__btns">
+        <div className="page-header__btns">
           <WhatsAppLink href="#">
             <svg width="20" height="20">
               <use href={sprite + "#whatsapp"} />
