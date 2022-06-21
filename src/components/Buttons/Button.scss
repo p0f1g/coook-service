@@ -2,10 +2,11 @@
 
 .btn {
   display: inline-block;
+  height: 40px;
   margin: 0;
   border-radius: 30px;
   border: 0;
-  padding: 0.6em 1.7em;
+  padding: 0 1.7em;
   vertical-align: middle;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -50,4 +51,10 @@
       pointer-events: none;
     }
   }
+}
+
+.btn--user {
+  width: 40px;
+  height: 40px;
+  padding: 0.6em;
 }
